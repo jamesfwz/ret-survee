@@ -16,27 +16,27 @@ You must provide the following APIs:
 Assume that the questions are already created on the server.
 More question types are expected to be added in the future.
 
-There are currently 3 type of questions:
-1) Open-text Question
-This question accepts a single open text answer.
-[Link to image]
+There are currently 3 type of questions:  
+1) Open-text Question  
+This question accepts a single open text answer.  
+![Open Text Question](images/open-text-question.jpg "Open Text Question")
 
-For reporting, the API will respond with a list of all the answers by all users
-[Link to image]
+For reporting, the API will respond with a list of all the answers by all users  
+![Open Text Result](images/open-text-result.jpg)
 
-2) Multiple-choices Question
-This question has a list of choices and will only accept one choice per answer.
-[Link to image]
+2) Multiple Choice Question  
+This question has a list of choices and will only accept one choice per answer.  
+![Multiple Choices Question](images/multiple-choice-question.jpg)
 
-For reporting, API will respond with the percentage chosen for each choice
-[Link to image]
+For reporting, API will respond with the percentage chosen for each choice  
+![Multiple Choices Result](images/multiple-choice-result.jpg)
 
 3) Scale Question
 This question has a minimum and a maximum scale value for the answer. eg. 0 to 100
-[Link to image]
+![Scale Question](images/scale-question.jpg)
 
 For reporting, question will respond with the the average of all answers.
-[Link to image]
+![Scale Result](images/scale-result.jpg)
 
 The initial data for the app are given at the end of this README.
 
